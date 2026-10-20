@@ -5,7 +5,7 @@
 <a href="https://knockknock10.github.io/Portfolio/">
   <img src="https://img.shields.io/badge/Explore%20my%20portfolio-Visit%20website-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore my portfolio" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=knockknock10&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://vbr.nathanchung.dev/badge?page_id=knockknock10.knockknock10&style=for-the-badge&color=06B6D4&lcolor=0F172A&text=PROFILE_VIEWS" alt="Profile views" />
 
 </div>
 
