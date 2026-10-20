@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://vbr.nathanchung.dev/badge?page_id=knockknock10.knockknock10&style=flat-square&color=64748b&lcolor=334155&text=profile%20views" alt="Profile views" />
+<img src="https://anime-counter.lulushu.workers.dev/@knockknock10?theme=naruto&scale=0.5&length=7&pixelated=1" alt="Profile views" />
 
 <br />
 
