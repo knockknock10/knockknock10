@@ -27,31 +27,20 @@ Currently interested in:
 <table>
   <tr>
     <td width="50%" valign="top">
-
-### [Portfolio](https://knockknock10.github.io/Portfolio/)
-
-A considered home for my projects, open-source work, technical interests, and research.
-
-[View source](https://github.com/knockknock10/Portfolio)
-
+      <h3><a href="https://knockknock10.github.io/Portfolio/">Portfolio</a></h3>
+      <p>A considered home for my projects, open-source work, technical interests, and research.</p>
+      <p><a href="https://github.com/knockknock10/Portfolio">View source</a></p>
     </td>
     <td width="50%" valign="top">
-
-### [CommitHub](https://github.com/knockknock10/CommitHub)
-
-A GitHub-inspired collaboration platform exploring full-stack development and project collaboration.
-
-[Explore repository](https://github.com/knockknock10/CommitHub)
-
+      <h3><a href="https://github.com/knockknock10/CommitHub">CommitHub</a></h3>
+      <p>A GitHub-inspired collaboration platform exploring full-stack development and project collaboration.</p>
+      <p><a href="https://github.com/knockknock10/CommitHub">Explore repository</a></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-
-### SemBind-Audio
-
-Research into semantic-aware audio watermarking, transformer-based representations, and cryptographic binding for audio content integrity.
-
+      <h3>SemBind-Audio</h3>
+      <p>Research into semantic-aware audio watermarking, transformer-based representations, and cryptographic binding for audio content integrity.</p>
     </td>
   </tr>
 </table>
