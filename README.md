@@ -11,6 +11,10 @@ Recently, I've been spending most of my time with Go, JavaScript, Python, Kubern
 - **SemBind-Audio** — an audio watermarking research project using HuBERT representations and STFT features. The current work also looks at where the method falls short under audio changes. [Code](https://github.com/knockknock10/SemBind_Audio)
 - **SonicMap RQ1** — a research prototype for tracking sound-source observations and how they relate over time. [Project notes](https://github.com/knockknock10/Portfolio/blob/main/SONICMAP-RQ1.md)
 
+## Experience
+
+I spent two months at CCC Digital Pvt. Ltd. as a Software Intern (June–July 2026), working on an AI coding coach for programming problem-solving.
+
 ## Open-source work
 
 A few contributions I've had merged:
