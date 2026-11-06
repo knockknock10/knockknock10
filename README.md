@@ -1,13 +1,32 @@
-<div align="center">
+# Hi, I'm Sanjeev
 
-<img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=500&size=26&duration=2800&pause=25000&color=667085&center=true&vCenter=true&width=360&height=42&lines=you+are+visitor+no." alt="You are visitor number" />
+I'm a third-year CSE student at SRM University AP. I enjoy building backend applications, working through unfamiliar codebases and contributing fixes to open-source projects.
 
-<img src="https://anime-counter.lulushu.workers.dev/@knockknock10?theme=naruto&scale=0.5&length=7&pixelated=1" alt="Profile visitor count" />
+Recently, I've been spending most of my time with Go, JavaScript, Python, Kubernetes and backend systems. I also work on audio-related research projects.
 
-<br />
+## A few things I'm building
 
-<a href="https://knockknock10.github.io/Portfolio/">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=500&size=24&duration=2800&pause=25000&color=667085&center=true&vCenter=true&width=260&height=38&lines=visit+my+portfolio" alt="Visit my portfolio" />
-</a>
+- **Aevor** — a developer tool I'm building around turning an issue into a proposed change that can be reviewed before anything is published. [Code](https://github.com/Aevor/platform)
+- **CommitHub** — a full-stack project where I'm working through repositories, branches, commits, pull requests, reviews and merge handling. [Code](https://github.com/knockknock10/CommitHub)
+- **SemBind-Audio** — an audio watermarking research project using HuBERT representations and STFT features. The current work also looks at where the method falls short under audio changes. [Code](https://github.com/knockknock10/SemBind_Audio)
 
-</div>
+## Open-source work
+
+A few contributions I've had merged:
+
+- [Camel-K #6866](https://github.com/apache/camel-k/pull/6866) — added optional Kubernetes NetworkPolicy support to the Service trait.
+- [Camel-K #6927](https://github.com/apache/camel-k/pull/6927) — fixed the multi-architecture image publishing flow.
+- [Podiom #354](https://github.com/Podiom/Podiom/pull/354) — added tests for installer provenance fields.
+- [Ansvisor #1916](https://github.com/ansvisor/ansvisor/pull/1916) — added reviewer information to regulated-page publishing and export flows.
+
+I'm also working on [IBM MQ scaler support in Camel-K](https://github.com/apache/camel-k/pull/6922). It's still under review.
+
+## Things I use
+
+Go, Python, Java, JavaScript, React, Node.js, PostgreSQL, MongoDB, Docker and Kubernetes. I'm still learning, and I try to get better by building and contributing rather than just collecting tools.
+
+## Links
+
+- [Portfolio](https://knockknock10.github.io/Portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/sanjeev-kumar-ba567133a/)
+- [LeetCode](https://leetcode.com/u/knockknock10/)
