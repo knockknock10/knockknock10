@@ -1,31 +1,44 @@
 # Sanjeev Kumar
 
-I tend to get interested when the happy path stops working.
+`CSE · SRM University AP · India`
 
-I'm a CSE student at SRM University AP. I like getting into a codebase, understanding where its state lives, and figuring out what happens when a request fails, an integration behaves differently than expected, or two parts of a system disagree. That has pulled me towards backend and platform engineering, open source, and a bit of audio research.
+This page is an index of the code and engineering work I keep coming back to. It is not meant to repeat my résumé; the links below are the better way to see what I have actually worked on.
 
-## Things I've spent time building
+## Changes in other people's code
 
-- **[Aevor](https://github.com/Aevor/platform)** — a developer tool I'm building around a simple idea: turn an issue into a proposed change, let someone inspect it, and only publish it after review.
-- **[CommitHub](https://github.com/knockknock10/CommitHub)** — a GitHub-style collaboration app. Building the repository, branch, commit and pull-request flows has been a good way to understand the work hidden behind a familiar interface.
-- **[SemBind-Audio](https://github.com/knockknock10/SemBind_Audio)** — speech watermarking research using HuBERT features and STFT. The clean-audio tests looked good; audio processing exposed how fragile the current embedding method still is.
-- **[SonicMap RQ1](https://github.com/knockknock10/Portfolio/blob/main/SONICMAP-RQ1.md)** — an audio research prototype for following sound-source observations over time. I'm also looking at what should happen when evidence arrives late. The public notes include the results and the parts that are not solved yet.
+A few upstream changes that have made it through review and into the project:
 
-## Work that made it upstream
+| Project | What changed |
+| --- | --- |
+| [Apache Camel-K #6866](https://github.com/apache/camel-k/pull/6866) | Added optional Kubernetes NetworkPolicy support to the Service trait, with tests and documentation. |
+| [Apache Camel-K #6927](https://github.com/apache/camel-k/pull/6927) | Fixed multi-architecture image publishing with Buildx imagetools. |
+| [Podiom #354](https://github.com/Podiom/Podiom/pull/354) | Added tests for installer provenance stamping. |
+| [Ansvisor #1916](https://github.com/ansvisor/ansvisor/pull/1916) | Added qualified reviewer information to regulated-page publishing and exports. |
 
-A few changes I've worked on and had merged:
+I keep the review threads linked because the discussion and the changes requested are part of the work too.
 
-- [Camel-K #6866](https://github.com/apache/camel-k/pull/6866) — added optional Kubernetes NetworkPolicy support to the Service trait.
-- [Camel-K #6927](https://github.com/apache/camel-k/pull/6927) — fixed multi-architecture image publishing.
-- [Podiom #354](https://github.com/Podiom/Podiom/pull/354) — added tests for installer provenance stamping.
-- [Ansvisor #1916](https://github.com/ansvisor/ansvisor/pull/1916) — added qualified reviewer information to publishing and export flows.
+## What is still open
 
-I'm still working through upstream feedback on [an IBM MQ KEDA scaler for Camel-K](https://github.com/apache/camel-k/pull/6922). It's an open draft, not merged work.
+These are not merged contributions. They are the problems I am currently trying to move forward:
 
-## A bit about my experience
+- [Camel-K #6922](https://github.com/apache/camel-k/pull/6922) — IBM MQ KEDA scaler mapping. This is still a draft.
+- [Google XLS #5222](https://github.com/google/xls/pull/5222) — balanced n-ary evaluation to avoid BDD path saturation.
+- [Kestra #21847](https://github.com/kestra-io/kestra/pull/21847) — reporting flaky E2E retries in CI.
+- [Camel-K #6917](https://github.com/apache/camel-k/pull/6917) — a proposal about connection-bean discovery for KEDA scalers.
 
-I spent two months as a Software Intern at **CCC Digital Pvt. Ltd.** (June–July 2026), working on an AI coding coach for programming problem-solving.
+## Things I am building
 
-Most of my recent work has involved Go, Python, JavaScript, React, Docker and Kubernetes. I use other tools when a project calls for them; I'm more interested in understanding why something works than collecting names for a skills list.
+- **[Aevor](https://github.com/Aevor/platform)** — a developer platform that takes a GitHub issue through context gathering and a proposed change, with a person reviewing before publication.
+- **[CommitHub](https://github.com/knockknock10/CommitHub)** — a React and Node.js collaboration app for repositories, branches, commits, pull requests and reviews. It models these workflows inside the app; it is not a Git server.
+- **[Wandera](https://github.com/knockknock10/Wandera)** — a travel-stay listing app with accounts, listings, photos and reviews.
+- **[SemBind-Audio](https://github.com/knockknock10/SemBind_Audio)** — speech watermarking research using HuBERT representations and STFT features. The clean-audio results were encouraging, but the current embedding method is fragile under audio processing.
 
-[Portfolio](https://knockknock10.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/sanjeev-kumar-ba567133a/) · [LeetCode](https://leetcode.com/u/knockknock10/)
+## Research notes
+
+**[SonicMap RQ1](https://github.com/knockknock10/Portfolio/blob/main/SONICMAP-RQ1.md)** is an audio research prototype for tracking sound-source observations and their relations over time. The notes include the STARSS23 baseline, the oracle-assisted graph results, and the limitations I still need to address. The source repository is private, so this is the public write-up rather than a link to the code.
+
+## Elsewhere
+
+I spent June and July 2026 as a Software Intern at CCC Digital Pvt. Ltd., working on an AI coding coach for programming problem-solving.
+
+[Résumé and portfolio](https://knockknock10.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/sanjeev-kumar-ba567133a/) · [LeetCode](https://leetcode.com/u/knockknock10/)
